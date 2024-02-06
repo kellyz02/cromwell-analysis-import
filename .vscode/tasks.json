@@ -1,0 +1,59 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "func",
+      "label": "func: host start",
+      "command": "host start",
+      "problemMatcher": "$func-node-watch",
+      "isBackground": true,
+      "dependsOn": "npm install (functions)"
+    },
+    {
+      "type": "shell",
+      "label": "npm install (functions)",
+      "command": "npm install"
+    },
+    {
+      "type": "shell",
+      "label": "npm prune (functions)",
+      "command": "npm prune --production",
+      "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "install",
+      "group": "clean",
+      "problemMatcher": [],
+      "label": "npm: install",
+      "detail": "install dependencies from package"
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "problemMatcher": [],
+      "label": "npm: start",
+      "detail": "func start"
+    },
+    {
+      "type": "npm",
+      "script": "test",
+      "group": "test",
+      "problemMatcher": [],
+      "label": "npm: test",
+      "detail": "echo \"No tests yet...\""
+    },
+    {
+      "type": "func",
+      "command": "extensions install",
+      "problemMatcher": [],
+      "label": "func: extensions install"
+    },
+    {
+      "type": "func",
+      "command": "extensions install",
+      "problemMatcher": [],
+      "label": "func: extensions install"
+    }
+  ]
+}
