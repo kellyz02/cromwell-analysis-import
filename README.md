@@ -13,3 +13,6 @@ files to Atlas and once done, copies those files into the Atlas
 Dropbox, and deletes all source files. The automation only cleans
 up files for succeeded runs for workflow types that have been
 included in the automation code.
+
+## Flowchart depiction of how the automation works: 
+![cromwell-automation-redacted](https://github.com/kellyz02/cromwell-analysis-import/assets/108567735/fc13655f-4d2e-48bd-9f14-66442783fd97)
