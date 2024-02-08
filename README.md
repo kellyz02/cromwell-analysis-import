@@ -1,6 +1,6 @@
 # cromwell-analysis-import
-Based on the manual cleanup process created by Jenna Liebe,
-the automation seeks to save time and reduce errors. The
+Based on the previous manual cleanup process,
+this automation seeks to save time and reduce errors. The
 automation was developed with JavaScript using Azure
 Functions, which makes it serverless. It consists of one “Function
 App”, <redacted>, which groups two
