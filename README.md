@@ -15,4 +15,4 @@ up files for succeeded runs for workflow types that have been
 included in the automation code.
 
 ## Flowchart depiction of how the automation works: 
-![Untitled-2024-02-06-1447](https://github.com/kellyz02/cromwell-analysis-import/assets/108567735/3910434d-a242-4799-95d7-89a1a9b0ec66)
+![cromwell-import-flowchart-renamed](https://github.com/kellyz02/cromwell-analysis-import/assets/108567735/d08f6b1c-9769-4569-b36a-48c20414fadd)
